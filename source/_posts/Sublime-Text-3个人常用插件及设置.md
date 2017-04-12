@@ -3,6 +3,8 @@ title: Sublime Text 3个人常用插件及设置
 date: 2017-04-07 16:49:20
 categories:
   - Tools
+tags:
+  - Sublime Text
 comments: false
 ---
 ## Package Control

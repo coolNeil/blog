@@ -3,6 +3,8 @@ title: 使用hexo和github搭建个人博客
 date: 2017-04-07 15:15:39
 categories:
   - Tools
+tags:
+  - hexo
 comments: false
 ---
 
