@@ -16,7 +16,7 @@ comments: false
   "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
   "selector": "source.js",
   "shell":true,
-  "encoding": "cp936",
+  "encoding": "utf8",
   "windows":
     {
         "cmd": ["taskkill","/F", "/IM", "node.exe","&","node", "$file"]
