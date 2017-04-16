@@ -9,6 +9,7 @@ comments: false
 ---
 
 ## Node Properties:
+
 * childNodes  空格/注释都会算节点，而children只会找到元素节点
 * firstChild
 * lastChild
@@ -20,6 +21,7 @@ comments: false
 * previousSibling
 
 ## Node Methods:
+
 * appendChild()
 * cloneNode()
 * compareDocumentPosition()
@@ -31,10 +33,12 @@ comments: false
 * replaceChild()
 
 ## Document Methods:
+
 * document.createElement()
 * document.createTextNode()
 
 ## HTML * Element Properties:
+
 * innerHTML
 * outerHTML
 * textContent
@@ -47,9 +51,11 @@ comments: false
 * children
 
 ## HTML element Methods:
+
 * insertAdjacentHTML()
 
 ## Node Properties
+
 * createElement()
 * tagName
 * children
@@ -62,6 +68,7 @@ comments: false
 * attributes
 
 ## 长度
+
 * offsetLeft
 * offsetTop
 * offsetParent
@@ -109,9 +116,10 @@ comments: false
 
 </html>
 ```
+
 ![](/images/offsetTop-offsetLeft.png)
 
-* getBoundingClientRect()  得到的是一个对象，里面保存了top/bottom/left/right/height/width
+- getBoundingClientRect()  得到的是一个对象，里面保存了top/bottom/left/right/height/width
   + top/bottom都是以元素外边框相对于浏览器viewpoint的上边缘
   + left/bottom都是以元素外边框相对于浏览器viewpoint的左边缘
   + width/height = (border + padding + content)
@@ -147,6 +155,7 @@ comments: false
 
 </html>
 ```
+
 ![](/images/getBoudingClientRect.png)
 
 * clientWidth and clientHeight = (padding + content) 不能包括滚动条

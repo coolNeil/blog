@@ -9,11 +9,13 @@ comments: false
 ---
 
 ### 环境搭建
+
   - Node.js
   - git
   - github账号
 
 ### hexo
+
   * 安装
     - `npm install hexo -g`
   * 初始化
@@ -28,19 +30,20 @@ comments: false
   * 生成静态页 `hexo g`
 
 ### 部署到github
+
   - github上建一个仓库，名字必须是your_user_name.github.io
   - `sh-keygen -t rsa -C "your_email@example.com`生成公钥密钥
   - 将公钥放到github
     * 验证是否通过 `ssh -T git@github.com`
   - 配置hexo关联到github（repo属性的值是你自己的仓库地址）
+
     ```
     deploy:
     type: git
-
     repo: git@github.com:coolNeil/coolNeil.github.io.git
-
     branch: master
     ```
+
   - `npm install hexo-deployer-git --save`
   - 发布到github
     * `hexo deploy | hexo d`
@@ -54,6 +57,7 @@ comments: false
 ### 关联域名
 
 ### hexo主题（next）
+
   - 下载
     * `git clone https://github.com/iissnan/hexo-theme-next themes/next`
   - 启用
@@ -71,6 +75,7 @@ comments: false
     * 在主配置文件中修改description属性
 
 ### 部分问题
+
   - 分类页404解决(标签页类似)
     * `hexo new page "categories"`
     * 编辑新建的页面
