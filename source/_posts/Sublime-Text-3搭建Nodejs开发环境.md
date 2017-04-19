@@ -1,11 +1,11 @@
 ---
-title: Sublime Text 3搭建Nodejs开发环境
+title: Sublime Text 3搭建Node.js开发环境
 date: 2017-04-14 00:31:28
 categories:
-  - Nodejs
+  - Node.js
 tags:
   - Sublime Text
-  - Nodejs
+  - Node.js
 comments: false
 ---
 

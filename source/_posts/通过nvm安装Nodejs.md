@@ -1,10 +1,10 @@
 ---
-title: 通过nvm安装Nodejs
+title: 通过nvm安装Node.js
 date: 2017-04-17 18:25:04
 categories:
-  - Nodejs
+  - Node.js
 tags:
-  - Nodejs
+  - Node.js
   - nvm
 comments: false
 ---
