@@ -5,6 +5,7 @@ categories:
   - Python
 tags:
   - Python
+comments: false
 ---
 
 # Tips
