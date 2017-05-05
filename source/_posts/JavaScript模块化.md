@@ -86,7 +86,7 @@ var module1 = (function (mod, $) {
 })(module1 || {}, jQuery);
 ```
 
-# 使用规范
+# 使用规范写法
 
 ## AMD(Asynchronous Module Definition)
 使用说明：[SeaJS](http://yslove.net/seajs/#use)
@@ -114,6 +114,6 @@ module.exports 或者 exports
 + 加载模块
 require();
 
-# ES6模块化
+# ES6模块化写法
 
 
